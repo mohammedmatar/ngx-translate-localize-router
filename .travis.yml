@@ -19,9 +19,9 @@ before_install:
 
 jobs:
   include:
-    - stage: lint
-      script:
-        - ng lint
+#    - stage: lint
+#      script:
+#        - ng lint
 #    - stage: test
 #      script:
 #        - npm run test:lib-coverage
